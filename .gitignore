@@ -1,5 +1,42 @@
-# Object file
-*.o
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Ada Library Information
-*.ali
+# Environment folders
+env/
+.venv/
+ENV/
+venv/
+pip-wheel-metadata/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and runtime files
+*.log
+*.pid
+
+# macOS system files
+.DS_Store
+
+# VSCode settings (if you're using VS Code)
+.vscode/
+
+# Model/weight files (optional, if they get large)
+*.h5
+*.pb
+*.tflite
+*.onnx
+*.ckpt
+
+# Mediapipe cache
+mediapipe_cache/
+
+# Dlib build folders (if compiled from source)
+build/
+*.dat
+
+# Secrets and environment variables (if any)
+.env
+secrets.json
