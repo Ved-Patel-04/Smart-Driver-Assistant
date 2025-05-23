@@ -1,9 +1,9 @@
-# Smart Driver Assistant 🚗💡
+# Smart Driver Assistant 
 
 An AI-powered driving assistant system that enhances road safety by detecting:
-- 😴 **Driver Drowsiness** using facial landmarks
-- 🚧 **Traffic Signs** using YOLOv8 object detection
-- 🛣️ **Lane Departures** using edge and line detection
+- **Driver Drowsiness** using facial landmarks
+- **Traffic Signs** using YOLOv8 object detection
+- **Lane Departures** using edge and line detection
 
 Built with Python, OpenCV, and deep learning, this project is optimized for edge devices like Raspberry Pi or Jetson Nano.
 
